@@ -1,1 +1,1 @@
-# laravel-admin-ext-bundle
+# laravel-admin-extension-bundle

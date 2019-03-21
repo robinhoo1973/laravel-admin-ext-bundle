@@ -1,0 +1,34 @@
+{
+    "name": "topview-digital/laravel-admin-ext-bundle",
+    "description": "Laravel Admin Extension Bundle",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Hoo",
+            "email": "robinhoo1973@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "^1.6.10",
+        "topview-digital/laravel-unique-json-rule": "^1.0",
+        "topview-digital/laravel-lang-switcher": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TopviewDigital\\Extension\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TopviewDigital\\Extension\\AdminExtBundleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
