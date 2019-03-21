@@ -296,9 +296,8 @@ EOT;
      */
     public function render()
     {
-        Admin::headJs([
-            // '/vendor/laravel-admin-ext-bundle/select2/js/select2.min.js',
-            '/vendor/laravel-admin-ext-bundle/select2/js/i18n/' . app()->getLocale() . '.js'
+        Admin::js([
+            '/vendor/laravel-admin/AdminLTE/plugins/select2/i18n/' . app()->getLocale() . '.js'
         ]);
         // Admin::baseCss(['/vendor/laravel-admin-ext-bundle/select2/css/select2.min.css']);
         $configs = str_replace("\n", '', $this->configs(
