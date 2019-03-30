@@ -12,6 +12,7 @@
     "require": {
         "php": ">=7.0.0",
         "encore/laravel-admin": "^1.6.10",
+        "topview-digital/laravel-translation-helper": "^1.0",
         "topview-digital/laravel-unique-json-rule": "^1.0",
         "topview-digital/laravel-lang-switcher": "^1.0"
     },
